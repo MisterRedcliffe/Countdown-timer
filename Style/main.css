@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(../img/ashton-mullins-j1HU-Oll7KI-unsplash.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: -20rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
